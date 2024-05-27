@@ -6,7 +6,7 @@ public class HelloClassCopy {
 
 		//HelloClass add = new HelloClass();
 		int l = MyAdditions.add();
-		int j = HelloClass.add();
+		int j = Add.add();
 		System.out.println("The Addition of Hidden Number is :"+j);
 		System.out.println("Another Addition of Hidden Number is :"+l);
 		
