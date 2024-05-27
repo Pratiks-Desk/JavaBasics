@@ -18,7 +18,7 @@ public class ExceptionHandaling {
 				b = Integer.parseInt(input);
 				validnum = true;
 				System.out.println("you entered : " + b);
-			} catch (Exception e) {
+			} catch (NumberFormatException e) {
 				System.out.println("Invalid number. please enter any valid number.");
 			}
 		
