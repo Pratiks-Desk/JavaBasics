@@ -3,37 +3,38 @@ package HelloJava;
 import java.util.Scanner;
 
 public class ExceptionHandaling {
-
 	public static void main(String[] args) {
 
 		int a = 10;
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter number first time");
-		int b = sc.nextInt();
+		int b = 0;
+		int div;
+		boolean validnum = false;
+		Scanner scanner = new Scanner(System.in);
 
-		int div = 0;
-
-		try {
-			div = a / b;
+		while (!validnum) {
+			System.out.println("Enter any valid number: ");
+			String input = scanner.nextLine();
+			try {
+				b = Integer.parseInt(input);
+				validnum = true;
+				System.out.println("you entered : " + b);
+			} catch (Exception e) {
+				System.out.println("Invalid number. please enter any valid number.");
+			}
+		
 		}
+		 div = 0;
 
-		catch (ArithmeticException art) {
-			System.out.println("Please enter valid number");
-			b = sc.nextInt();
-			div = a / b;
-		}
+			try {
+				div = a / b;
+			}
 
-		catch (NullPointerException art) {
-			System.out.println("Please enter valid number");
-			b = sc.nextInt();
-			div = a / b;
-		}
 
-		finally {
-			System.out.println("Finally block is always executed");
-		}
+			finally {
+				System.out.println("this msg is displayed,b'oz It's finally block. and Finally block always executes");
+			}
 
-		System.out.println(div);
+			System.out.println("div= "+ div);
 
 	}
 
