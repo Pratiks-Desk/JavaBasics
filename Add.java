@@ -1,14 +1,14 @@
 package HelloJava;
 
-public class HelloClass {
+public class Add {
 
 	public static void main(String[] args) {
 
 		// HelloClass add = new HelloClass();
 		// int j = HelloClassCopy.add();
 
-		HelloClass add = new HelloClass();
-		int j = HelloClass.add();
+		Add add = new Add();
+		int j = Add.add();
 		System.out.println("The Addition of Hidden Number is :" + j);
 
 	}
