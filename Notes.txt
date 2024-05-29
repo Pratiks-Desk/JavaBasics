@@ -1,1 +1,18 @@
-a
+JAVA INTRO:->
+Java Is Free, Open-source, Object oriented Programming Language.
+Originally developed by James Gosling and his team at Sun Microsystems and publicly released in 1995, as core component of sun microsystems java platform.
+
+James Gosling and his team started/initiated a project in June 1991, with name 'OAK'.
+This project was originally designed for interactive television, but it was so advanced for the  digital cable television industry at the time.
+Due to some reason the project-Oak, renamed as Project Green; was later renamed as Java.
+
+Sun microsystems released the first public implimentation as Java 1.0 in 1995.
+It Promised, "Write once , run Anywhere"(WORA).
+Java Application compiled to Byte code (class file), tat can be run on any java virtual machin(jvm) regardless computer architecture.
+
+//-----------------------------------------------------------------//
+
+- Java Is Simple and Small, soits easily programmable with a minimum of training.
+- Java is Object oriented language,its gives access and achieve Inheritance, Encapsulation and polymorphism etc.
+- Java is Portable and Interpreted language. Its B'oz, a java application is a combination of a compiled and interpreted language. The source code written into byte code , which is uniform/simiar/same for all machines.This byte code is compatible/suitable with java virtual machin(jvm/i.e.java interpreter),This jvm converts the byte code into specific machine for direct execution. That's why java is portable and interpreted language.
+Java has automatic memory management
