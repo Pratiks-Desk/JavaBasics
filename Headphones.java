@@ -29,10 +29,9 @@ public class Headphones {
 	
 	public static void main(String[] args) {
 		Headphones ion = new Headphones();
-		System.out.println(ion.power);
-		
+		System.out.println("Is power on? :"+ "\t " +ion.power);
 		powerOn();
 		System.out.println("After Switch on power");
-		System.out.println(ion.power);
+		System.out.println("Is power on? :"+ "\t " +ion.power);
 	}
 }
