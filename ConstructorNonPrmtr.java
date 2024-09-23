@@ -13,6 +13,12 @@ public class ConstructorNonPrmtr {
 		Age=21;
 		Clg= "DK College";
 		Marks=89.6f;
+
+		System.out.println("Student Id    :-\t"+RollNum);
+		System.out.println("Student Name  :-\t"+Name);
+		System.out.println("College Name  :-\t"+Clg);
+		System.out.println("Student Age   :-\t"+Age);
+		System.out.println("Student Marks :-\t"+Marks);
 	}
 	
 	void display() {
@@ -24,8 +30,8 @@ public class ConstructorNonPrmtr {
 	}
 	
 	public static void main(String[] args) {
-		ConstructorNonPrmtr Detail= new ConstructorNonPrmtr();
-		Detail.display();
+		ConstructorNonPrmtr Detail= new ConstructorNonPrmtr();//calling constructor
+		// Detail.display();
 
 	}
 

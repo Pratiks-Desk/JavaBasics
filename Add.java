@@ -1,15 +1,11 @@
-package HelloJava;
-
 public class Add {
 
 	public static void main(String[] args) {
 
 		// HelloClass add = new HelloClass();
 		// int j = HelloClassCopy.add();
-
-		Add add = new Add();
-		int j = Add.add();
-		System.out.println("The Addition of Hidden Number is :" + j);
+		int j =add();
+		System.out.println("The Addition of Numbers is :" +j );
 
 	}
 

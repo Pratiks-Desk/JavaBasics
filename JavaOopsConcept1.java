@@ -8,22 +8,21 @@ public class JavaOopsConcept1 {//Its Class, A template for objects or its instan
 		
 	}
 
-	class ClassOne{
+	public class ClassOne{
 		public static void classOneMethod(){
 			system.out.println("ClassOneMethod");
 		}
 	}
-	class ClassInheritance extends ClassOne{	
+	 public class ClassInheritance extends ClassOne{	
 		/*The line class ClassInheritance extends ClassOne in Java is a declaration of a class named ClassInheritance that 
   inherits from another class named ClassOne. This is an example of class inheritance,
   which is a key feature of object-oriented programming. 
   Inheritance allows a class to inherit and reuse fields and methods from another class,*/
-		public static void inheritanceClassMethod(){
+		public void inheritanceClassMethod(){
 			system.out.println("Its InheritanceClassMethod");
 		}
 		
 	}
-
 
 
 }

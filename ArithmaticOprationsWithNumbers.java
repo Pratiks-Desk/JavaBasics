@@ -2,7 +2,7 @@ package HelloJava;
 
 import java.util.Scanner;
 
-public class ArrayComplx1 {
+public class ArithmaticOprationsWithNumbers {
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -31,7 +31,7 @@ public class ArrayComplx1 {
 
 		// ------------ Options of Operation ----------//
 
-		System.out.println("\n Select Number of Your Operation from the list given below : \t");
+		System.out.println("\n Select indexing Number of Your Operation from the list given below : \t");
 		Thread.sleep(1000);
 		System.out.print("\n \t\t 1.Addition \t 2. Subtraction \t 3. Multiplication");
 		System.out.println("\n \t\t 4.Division \t 5. Modulous ");
